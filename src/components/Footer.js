@@ -15,8 +15,12 @@ return(
                 <Col className="p-0 d-flex justify-content-end" md={3}>
                     This site was made by Ashley Kohl Adler.
                 </Col>
-                <Card body><a href="https://github.com/ashleykohladler"> Github</a></Card>
-      <Card body><a href="https://www.linkedin.com/in/ashley-kohl-adler-0068727a/"> LinkedIn</a></Card>
+                {/* <Card body><a href="https://github.com/ashleykohladler"> Github</a></Card> */}
+                <a href="https://github.com/ashleykohladler"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub icon by Icons8" className="icon"/></a>
+                
+      {/* <Card body><a href="https://www.linkedin.com/in/ashley-kohl-adler-0068727a/"> LinkedIn</a></Card> */}
+      <a href="https://www.linkedin.com/in/ashley-kohl-adler-0068727a/"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="LinkedIn by Icons8" className="icon"/></a>
+      <a href="https://docs.google.com/document/d/1aIhJXObYmki3jWxl2iE4EfP1gGCD5_xsjpb8XpKgXW4/edit?usp=sharing"><img src="https://img.icons8.com/ios/50/000000/open-resume.png" alt="resume" className="icon"/></a>
       <Card body><a href="https://www.ashleykohladler.com/"> Life Before Code</a></Card>
             </Row>
         </Container>
