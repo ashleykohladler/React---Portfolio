@@ -1,3 +1,6 @@
+* {
+  background-color:cornsilk;
+}
 .App {
   text-align: center;
 }
@@ -8,14 +11,36 @@
 }
 
 .image1 {
-  height: 500px;
-  width: 500px;
+  margin-left: 425px;
+  border: #282c34;
+  border-radius: 20px;
+  height: 300px;
+  width: 550px;
   
 }
 
-.image3 {
+.image2 {
+  margin-left: 425px;
+  border: #282c34;
+  border-radius: 20px;
   height: 400px;
-  width: 700px;
+  width: 575px;
+  
+}
+
+.text {
+  margin-left: 450px;
+  border: #282c34;
+  height: 400px;
+  width: 500px;
+}
+
+.image3 {
+  margin-left: 500px;
+  border: #282c34;
+  border-radius: 20px;
+  height: 400px;
+  width: 400px;
 }
 .App-logo {
   height: 40vmin;
