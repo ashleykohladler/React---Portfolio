@@ -10,6 +10,19 @@
  
 }
 
+.button {
+  margin: 10px;
+}
+
+.form {
+  margin: 50px;
+}
+
+.formcontainer {
+  border: #282c34;
+  border-radius: 20px;
+}
+
 .image1 {
   margin-left: 425px;
   border: #282c34;
@@ -42,6 +55,23 @@
   height: 400px;
   width: 400px;
 }
+
+.image4 {
+  margin-left: 500px;
+  border: #282c34;
+  border-radius: 20px;
+  height: 300px;
+  width: 400px;
+}
+
+.image5 {
+  margin-left: 500px;
+  border: #282c34;
+  border-radius: 20px;
+  height: 300px;
+  width: 400px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
