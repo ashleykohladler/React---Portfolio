@@ -1,6 +1,6 @@
 import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import image from "../pages/techbackground.jpeg";
+import image from "./techbackground.jpeg";
 
 export default function Home() {
   return (

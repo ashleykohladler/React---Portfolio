@@ -1,11 +1,12 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button'
-import image1 from "../pages/lyrics.jpeg";
-import image2 from "../pages/workout.jpg";
-import image3 from "../pages/adoption.jpeg";
-import image4 from "../pages/blog.jpeg";
-import image5 from "../pages/forecast.png";
+import image1 from "./lyrics.jpeg";
+import image2 from "./workout.jpg";
+import image3 from "./adoption.jpeg";
+import image4 from "./blog.jpeg";
+import image5 from "./forecast.png";
+import image6 from "./notetaker.jpeg";
 
 export default function Project() {
   return (
@@ -81,9 +82,9 @@ export default function Project() {
 
   <p>
 <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" className="image3" src={image3} />
+  <Card.Img variant="top" className="image6" src={image6} />
   <Card.Body className="text">
-    <Card.Title>Paws 4 Y'all</Card.Title>
+    <Card.Title>Note Taker</Card.Title>
     <Card.Text>
     I created an application that can be used to write, save and delete notes.
     </Card.Text>
